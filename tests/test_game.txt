@@ -1,0 +1,11 @@
+C Настройки игры
+def lives = 3
+{
+    player = "John",
+    score = 0,
+    lives = ?[lives 1 +],
+    settings = {
+        difficulty = "hard",
+        volume = 80
+    }
+}

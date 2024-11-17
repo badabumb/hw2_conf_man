@@ -1,0 +1,7 @@
+C Конфигурация сервера
+def timeout = 30
+{
+    hostname = "localhost",
+    port = 8080,
+    timeout = ?[timeout 5 *]
+}
